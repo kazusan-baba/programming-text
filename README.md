@@ -3,9 +3,12 @@
 
 ## 必要ソフト
 1. [VSCode](https://code.visualstudio.com/download)
-2. [Git](https://git-scm.com/downloads)
+2. [Git](https://git-scm.com/downloads) - おすすめはStandalone Installer
 2. [.NET 7 SDK](https://dotnet.microsoft.com/en-us/download)
 3. [Polyglot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+
+## おすすめ
+- [Japanese Language Pack](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja)
 
 ## セットアップ
 1. VSCodeを起動し、*Gitリポジトリのクローン*をクリック
