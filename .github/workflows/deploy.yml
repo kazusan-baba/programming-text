@@ -16,7 +16,7 @@ jobs:
     - name: Create and zip deployment files
       run: |
         rm -rf .github .git .gitignore # 不要フォルダー削除
-        zip -r programming-text-${{ github.event.head_commit.message }}.zip . # デプロイするファイルを選択してzip圧縮
+        zip -r programming-text-${{ github.event.pull_request.title }}.zip . # デプロイするファイルを選択してzip圧縮
 
     - name: Create release
       id: create_release
