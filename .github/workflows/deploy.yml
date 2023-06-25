@@ -18,7 +18,9 @@ jobs:
 
     - name: Create and zip deployment files
       run: |
-        rm -rf .github .git .gitignore # 不要フォルダー削除
+        rm .vscode/extensions.json      # 開発者用設定ファイル削除
+        mv .vscode/extensions-user.json .vscode/extensions.json # ユーザー用設定ファイル有効化
+        rm -rf .github .git .gitignore  # 不要フォルダー削除
         zip -r programming-text-${{ github.event.pull_request.title }}.zip . # デプロイするファイルを選択してzip圧縮
 
     - name: Create release
