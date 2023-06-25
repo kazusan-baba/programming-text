@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "ms-dotnettools.dotnet-interactive-vscode",
-        "ms-ceintl.vscode-language-pack-ja"
+        "ms-ceintl.vscode-language-pack-ja",
+        "github.vscode-pull-request-github",
+        "mhutchie.git-graph"
     ]
 }
