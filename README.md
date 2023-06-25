@@ -1,4 +1,4 @@
-[開発者用README](README.developer.md)
+[開発者用README](README.developer.md)はこちら
 # プログラミングテキスト
 このテキストはVSCodeの拡張機能「Polyglot Notebooks」を利用したテキストです。
 
